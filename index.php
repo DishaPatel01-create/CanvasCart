@@ -35,6 +35,10 @@ $result = mysqli_query($conn, $query);
 <?php include("navbar.php"); ?>
 
 <div class="container" data-aos="fade-up">
+    <div style="text-align:center; padding:30px;">
+    <h1>Welcome to CanvasCart 🎨</h1>
+    <p>Your one-stop shop for all art supplies</p>
+</div>
     <h1>Art Supplies Marketplace 🎨</h1>
 
     <form method="GET">
